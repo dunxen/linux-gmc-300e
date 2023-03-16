@@ -1,0 +1,2 @@
+#!/bin/bash
+make rustfmtcheck && make CLIPPY=1 && make && make clean || exit 1
